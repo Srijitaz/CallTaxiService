@@ -1,0 +1,247 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/6/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 28 15:31:37 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>134 seconds (134315 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.cab.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cab.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Submit form with invalid phone number format", "Booking Page Validation"</td>
+<td><div><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.cab.stepdefinitions.BookingStepsExcel.phone_error_displayed(BookingStepsExcel.java:268)
+	at ✽.Error message &quot;Please enter valid phone number&quot; should be shown under Phone field(file:///C:/Users/sriji/eclipse-workspace45/CallTaxiService/src/test/java/com/cab/features/booking.feature:49)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1565881543", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1565881543'><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.cab.stepdefinitions.BookingStepsExcel.phone_error_displayed(BookingStepsExcel.java:268)
+	at ✽.Error message &quot;Please enter valid phone number&quot; should be shown under Phone field(file:///C:/Users/sriji/eclipse-workspace45/CallTaxiService/src/test/java/com/cab/features/booking.feature:49)
+</pre></div></td>
+<td>7</td>
+<td>com.cab.runners.TestRunner@33c911a1</td></tr>
+<tr>
+<td title='com.cab.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cab.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Submit form with invalid name format", "Booking Page Validation"</td>
+<td><div><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.cab.stepdefinitions.BookingStepsExcel.validate_name_error(BookingStepsExcel.java:242)
+	at ✽.Error message &quot;Please enter valid name&quot; should be shown under Name field(file:///C:/Users/sriji/eclipse-workspace45/CallTaxiService/src/test/java/com/cab/features/booking.feature:21)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1483228092", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1483228092'><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.cab.stepdefinitions.BookingStepsExcel.validate_name_error(BookingStepsExcel.java:242)
+	at ✽.Error message &quot;Please enter valid name&quot; should be shown under Name field(file:///C:/Users/sriji/eclipse-workspace45/CallTaxiService/src/test/java/com/cab/features/booking.feature:21)
+</pre></div></td>
+<td>12</td>
+<td>com.cab.runners.TestRunner@33c911a1</td></tr>
+<tr>
+<td title='com.cab.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cab.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Submit form with invalid phone number format", "Booking Page Validation"</td>
+<td><div><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.cab.stepdefinitions.BookingStepsExcel.phone_error_displayed(BookingStepsExcel.java:268)
+	at ✽.Error message &quot;Please enter valid phone number&quot; should be shown under Phone field(file:///C:/Users/sriji/eclipse-workspace45/CallTaxiService/src/test/java/com/cab/features/booking.feature:49)
+</pre></div><a href='#' onClick='toggleBox("stack-trace218770562", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace218770562'><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.cab.stepdefinitions.BookingStepsExcel.phone_error_displayed(BookingStepsExcel.java:268)
+	at ✽.Error message &quot;Please enter valid phone number&quot; should be shown under Phone field(file:///C:/Users/sriji/eclipse-workspace45/CallTaxiService/src/test/java/com/cab/features/booking.feature:49)
+</pre></div></td>
+<td>7</td>
+<td>com.cab.runners.TestRunner@33c911a1</td></tr>
+<tr>
+<td title='com.cab.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cab.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Submit form with invalid name format", "Booking Page Validation"</td>
+<td><div><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.cab.stepdefinitions.BookingStepsExcel.validate_name_error(BookingStepsExcel.java:242)
+	at ✽.Error message &quot;Please enter valid name&quot; should be shown under Name field(file:///C:/Users/sriji/eclipse-workspace45/CallTaxiService/src/test/java/com/cab/features/booking.feature:21)
+</pre></div><a href='#' onClick='toggleBox("stack-trace788830525", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace788830525'><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.cab.stepdefinitions.BookingStepsExcel.validate_name_error(BookingStepsExcel.java:242)
+	at ✽.Error message &quot;Please enter valid name&quot; should be shown under Name field(file:///C:/Users/sriji/eclipse-workspace45/CallTaxiService/src/test/java/com/cab/features/booking.feature:21)
+</pre></div></td>
+<td>9</td>
+<td>com.cab.runners.TestRunner@33c911a1</td></tr>
+<tr>
+<td title='com.cab.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cab.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Submit form with invalid email format", "Booking Page Validation"</td>
+<td><div><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.cab.stepdefinitions.BookingStepsExcel.email_error_displayed(BookingStepsExcel.java:261)
+	at ✽.Error message &quot;Please enter valid email&quot; should be shown under Email field(file:///C:/Users/sriji/eclipse-workspace45/CallTaxiService/src/test/java/com/cab/features/booking.feature:35)
+</pre></div><a href='#' onClick='toggleBox("stack-trace90250170", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace90250170'><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.cab.stepdefinitions.BookingStepsExcel.email_error_displayed(BookingStepsExcel.java:261)
+	at ✽.Error message &quot;Please enter valid email&quot; should be shown under Email field(file:///C:/Users/sriji/eclipse-workspace45/CallTaxiService/src/test/java/com/cab/features/booking.feature:35)
+</pre></div></td>
+<td>7</td>
+<td>com.cab.runners.TestRunner@33c911a1</td></tr>
+<tr>
+<td title='com.cab.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cab.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Submit form with invalid email format", "Booking Page Validation"</td>
+<td><div><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.cab.stepdefinitions.BookingStepsExcel.email_error_displayed(BookingStepsExcel.java:261)
+	at ✽.Error message &quot;Please enter valid email&quot; should be shown under Email field(file:///C:/Users/sriji/eclipse-workspace45/CallTaxiService/src/test/java/com/cab/features/booking.feature:35)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1488550933", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1488550933'><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.cab.stepdefinitions.BookingStepsExcel.email_error_displayed(BookingStepsExcel.java:261)
+	at ✽.Error message &quot;Please enter valid email&quot; should be shown under Email field(file:///C:/Users/sriji/eclipse-workspace45/CallTaxiService/src/test/java/com/cab/features/booking.feature:35)
+</pre></div></td>
+<td>5</td>
+<td>com.cab.runners.TestRunner@33c911a1</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.cab.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cab.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that cab service link is working", "Service Page Cab Link Navigation"</td>
+<td></td>
+<td>8</td>
+<td>com.cab.runners.TestRunner@33c911a1</td></tr>
+<tr>
+<td title='com.cab.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cab.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Submit form keeping name empty", "Booking Page Validation"</td>
+<td></td>
+<td>4</td>
+<td>com.cab.runners.TestRunner@33c911a1</td></tr>
+<tr>
+<td title='com.cab.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cab.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that cab service link is working", "Service Page Cab Link Navigation"</td>
+<td></td>
+<td>8</td>
+<td>com.cab.runners.TestRunner@33c911a1</td></tr>
+<tr>
+<td title='com.cab.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cab.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Submit form keeping type empty", "Booking Page Validation"</td>
+<td></td>
+<td>5</td>
+<td>com.cab.runners.TestRunner@33c911a1</td></tr>
+<tr>
+<td title='com.cab.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cab.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Submit form keeping no of passengers empty", "Booking Page Validation"</td>
+<td></td>
+<td>6</td>
+<td>com.cab.runners.TestRunner@33c911a1</td></tr>
+<tr>
+<td title='com.cab.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cab.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Booking with row 0 from Excel data", "Booking Page Validation"</td>
+<td></td>
+<td>11</td>
+<td>com.cab.runners.TestRunner@33c911a1</td></tr>
+<tr>
+<td title='com.cab.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cab.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that cab service link is working", "Service Page Cab Link Navigation"</td>
+<td></td>
+<td>6</td>
+<td>com.cab.runners.TestRunner@33c911a1</td></tr>
+<tr>
+<td title='com.cab.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cab.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Booking with row 1 from Excel data", "Booking Page Validation"</td>
+<td></td>
+<td>7</td>
+<td>com.cab.runners.TestRunner@33c911a1</td></tr>
+<tr>
+<td title='com.cab.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cab.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that cab service link is working", "Service Page Cab Link Navigation"</td>
+<td></td>
+<td>8</td>
+<td>com.cab.runners.TestRunner@33c911a1</td></tr>
+<tr>
+<td title='com.cab.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cab.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Submit form with all valid data", "Booking Page Validation"</td>
+<td></td>
+<td>10</td>
+<td>com.cab.runners.TestRunner@33c911a1</td></tr>
+</table><p>
+</body>
+</html>

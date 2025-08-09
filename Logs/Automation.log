@@ -1,0 +1,363 @@
+2025-08-04 09:54:56 INFO  Hooks:33 - Extent Report initialized.
+2025-08-04 09:54:56 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:54:56 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:55:02 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:55:02 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:55:02 INFO  Hooks:46 - Scenario Started: Submit form with all valid data 
+2025-08-04 09:55:03 INFO  BookingStepsExcel:32 - Browser launched and booking page opened.
+2025-08-04 09:55:03 INFO  BookingStepsExcel:38 - Filling form with DataTable: {Name=Srijita, Phone=9876543210, Email=sri@test1.com, Trip=long, Cab=Micro, CarType=AC, Date=2025-07-29, Time=10:30, Passenger=4, TripType=roundtrip}
+2025-08-04 09:55:04 INFO  BookingPage:78 - Entered full name: Srijita
+2025-08-04 09:55:04 INFO  BookingPage:87 - Entered phone number: 9876543210
+2025-08-04 09:55:04 INFO  BookingPage:96 - Entered email: sri@test1.com
+2025-08-04 09:55:04 INFO  BookingPage:104 - Selected trip type: Long
+2025-08-04 09:55:04 INFO  BookingPage:115 - Selected cab: Micro
+2025-08-04 09:55:04 INFO  BookingPage:131 - Entered pickup date: 2025-07-29
+2025-08-04 09:55:05 INFO  BookingPage:140 - Entered pickup time: 10:30
+2025-08-04 09:55:05 INFO  BookingPage:147 - Selected passenger count: 4
+2025-08-04 09:55:05 INFO  BookingPage:158 - Selected trip mode: Roundtrip
+2025-08-04 09:55:05 INFO  BookingPage:163 - Clicking 'Book Now' button
+2025-08-04 09:55:05 INFO  BookingStepsExcel:97 - Clicked on Book Now button.
+2025-08-04 09:55:05 INFO  BookingPage:170 - Booking confirmation message: Your Booking has been Confirmed..
+2025-08-04 09:55:05 INFO  BookingStepsExcel:103 - Validating confirmation message. Expected: 'Your Booking has been Confirmed', Actual: 'Your Booking has been Confirmed..'
+2025-08-04 09:55:05 INFO  Hooks:61 - Scenario Passed: Submit form with all valid data
+2025-08-04 09:55:05 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:55:07 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:55:07 INFO  Hooks:66 - Scenario Ended: Submit form with all valid data
+2025-08-04 09:55:07 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:55:07 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:55:09 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:55:09 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:55:09 INFO  Hooks:46 - Scenario Started: Submit form with invalid name format 
+2025-08-04 09:55:10 INFO  BookingStepsExcel:32 - Browser launched and booking page opened.
+2025-08-04 09:55:10 INFO  BookingStepsExcel:38 - Filling form with DataTable: {Name=123, Phone=9876543210, Email=sri@test.com, Trip=local, Cab=Mini, CarType=Non-Ac, Date=2025-08-28, Time=09:30, Passenger=2, TripType=oneway}
+2025-08-04 09:55:10 INFO  BookingPage:78 - Entered full name: 123
+2025-08-04 09:55:10 INFO  BookingPage:87 - Entered phone number: 9876543210
+2025-08-04 09:55:10 INFO  BookingPage:96 - Entered email: sri@test.com
+2025-08-04 09:55:10 INFO  BookingPage:107 - Selected trip type: Local
+2025-08-04 09:55:11 INFO  BookingPage:115 - Selected cab: Mini
+2025-08-04 09:55:11 INFO  BookingPage:131 - Entered pickup date: 2025-08-28
+2025-08-04 09:55:11 INFO  BookingPage:140 - Entered pickup time: 09:30
+2025-08-04 09:55:11 INFO  BookingPage:147 - Selected passenger count: 2
+2025-08-04 09:55:11 INFO  BookingPage:155 - Selected trip mode: Oneway
+2025-08-04 09:55:11 INFO  BookingPage:163 - Clicking 'Book Now' button
+2025-08-04 09:55:12 INFO  BookingStepsExcel:97 - Clicked on Book Now button.
+2025-08-04 09:55:12 INFO  BookingStepsExcel:116 - Validating Name field error: 'Please enter valid name'
+2025-08-04 09:55:12 WARN  BookingPage:185 - Name validation failed. Expected: 'Please enter valid name', but got: ''
+2025-08-04 09:55:12 ERROR Hooks:52 - Scenario Failed: Submit form with invalid name format
+2025-08-04 09:55:12 INFO  Hooks:59 - Screenshot captured at: C:\Users\sriji\eclipse-workspace45\CallTaxiService\screenshots\Submit_form_with_invalid_name_format_04-08-2025_09_55_12.png
+2025-08-04 09:55:12 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:55:14 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:55:14 INFO  Hooks:66 - Scenario Ended: Submit form with invalid name format
+2025-08-04 09:55:14 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:55:14 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:55:16 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:55:17 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:55:17 INFO  Hooks:46 - Scenario Started: Submit form with invalid name format 
+2025-08-04 09:55:18 INFO  BookingStepsExcel:32 - Browser launched and booking page opened.
+2025-08-04 09:55:18 INFO  BookingStepsExcel:38 - Filling form with DataTable: {Name=Sri@1ab, Phone=9876543210, Email=sri@test.com, Trip=local, Cab=Mini, CarType=Non-Ac, Date=2025-08-28, Time=09:30, Passenger=2, TripType=oneway}
+2025-08-04 09:55:18 INFO  BookingPage:78 - Entered full name: Sri@1ab
+2025-08-04 09:55:18 INFO  BookingPage:87 - Entered phone number: 9876543210
+2025-08-04 09:55:18 INFO  BookingPage:96 - Entered email: sri@test.com
+2025-08-04 09:55:18 INFO  BookingPage:107 - Selected trip type: Local
+2025-08-04 09:55:18 INFO  BookingPage:115 - Selected cab: Mini
+2025-08-04 09:55:19 INFO  BookingPage:131 - Entered pickup date: 2025-08-28
+2025-08-04 09:55:19 INFO  BookingPage:140 - Entered pickup time: 09:30
+2025-08-04 09:55:19 INFO  BookingPage:147 - Selected passenger count: 2
+2025-08-04 09:55:19 INFO  BookingPage:155 - Selected trip mode: Oneway
+2025-08-04 09:55:19 INFO  BookingPage:163 - Clicking 'Book Now' button
+2025-08-04 09:55:19 INFO  BookingStepsExcel:97 - Clicked on Book Now button.
+2025-08-04 09:55:19 INFO  BookingStepsExcel:116 - Validating Name field error: 'Please enter valid name'
+2025-08-04 09:55:19 WARN  BookingPage:185 - Name validation failed. Expected: 'Please enter valid name', but got: ''
+2025-08-04 09:55:19 ERROR Hooks:52 - Scenario Failed: Submit form with invalid name format
+2025-08-04 09:55:20 INFO  Hooks:59 - Screenshot captured at: C:\Users\sriji\eclipse-workspace45\CallTaxiService\screenshots\Submit_form_with_invalid_name_format_04-08-2025_09_55_19.png
+2025-08-04 09:55:20 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:55:21 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:55:21 INFO  Hooks:66 - Scenario Ended: Submit form with invalid name format
+2025-08-04 09:55:21 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:55:21 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:55:22 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:55:23 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:55:23 INFO  Hooks:46 - Scenario Started: Submit form with invalid email format 
+2025-08-04 09:55:24 INFO  BookingStepsExcel:32 - Browser launched and booking page opened.
+2025-08-04 09:55:24 INFO  BookingStepsExcel:38 - Filling form with DataTable: {Name=Sri, Phone=9876543210, Email=test.com, Trip=local, Cab=Mini, CarType=Non-Ac, Date=2025-08-28, Time=09:30, Passenger=2, TripType=oneway}
+2025-08-04 09:55:24 INFO  BookingPage:78 - Entered full name: Sri
+2025-08-04 09:55:24 INFO  BookingPage:87 - Entered phone number: 9876543210
+2025-08-04 09:55:24 INFO  BookingPage:96 - Entered email: test.com
+2025-08-04 09:55:25 INFO  BookingPage:107 - Selected trip type: Local
+2025-08-04 09:55:25 INFO  BookingPage:115 - Selected cab: Mini
+2025-08-04 09:55:25 INFO  BookingPage:131 - Entered pickup date: 2025-08-28
+2025-08-04 09:55:25 INFO  BookingPage:140 - Entered pickup time: 09:30
+2025-08-04 09:55:25 INFO  BookingPage:147 - Selected passenger count: 2
+2025-08-04 09:55:25 INFO  BookingPage:155 - Selected trip mode: Oneway
+2025-08-04 09:55:25 INFO  BookingPage:163 - Clicking 'Book Now' button
+2025-08-04 09:55:26 INFO  BookingStepsExcel:97 - Clicked on Book Now button.
+2025-08-04 09:55:26 INFO  BookingStepsExcel:139 - Validating Email format error: 'Please enter valid email'
+2025-08-04 09:55:26 WARN  BookingPage:223 - BUG: Booking confirmed with invalid email. Message shown: 'Your Booking has been Confirmed..'
+2025-08-04 09:55:26 ERROR Hooks:52 - Scenario Failed: Submit form with invalid email format
+2025-08-04 09:55:26 INFO  Hooks:59 - Screenshot captured at: C:\Users\sriji\eclipse-workspace45\CallTaxiService\screenshots\Submit_form_with_invalid_email_format_04-08-2025_09_55_26.png
+2025-08-04 09:55:26 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:55:27 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:55:27 INFO  Hooks:66 - Scenario Ended: Submit form with invalid email format
+2025-08-04 09:55:27 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:55:27 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:55:28 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:55:28 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:55:28 INFO  Hooks:46 - Scenario Started: Submit form with invalid email format 
+2025-08-04 09:55:29 INFO  BookingStepsExcel:32 - Browser launched and booking page opened.
+2025-08-04 09:55:29 INFO  BookingStepsExcel:38 - Filling form with DataTable: {Name=Sri, Phone=9876543210, Email=sri234, Trip=local, Cab=Mini, CarType=Non-Ac, Date=2025-08-28, Time=09:30, Passenger=2, TripType=oneway}
+2025-08-04 09:55:29 INFO  BookingPage:78 - Entered full name: Sri
+2025-08-04 09:55:29 INFO  BookingPage:87 - Entered phone number: 9876543210
+2025-08-04 09:55:30 INFO  BookingPage:96 - Entered email: sri234
+2025-08-04 09:55:30 INFO  BookingPage:107 - Selected trip type: Local
+2025-08-04 09:55:30 INFO  BookingPage:115 - Selected cab: Mini
+2025-08-04 09:55:30 INFO  BookingPage:131 - Entered pickup date: 2025-08-28
+2025-08-04 09:55:30 INFO  BookingPage:140 - Entered pickup time: 09:30
+2025-08-04 09:55:30 INFO  BookingPage:147 - Selected passenger count: 2
+2025-08-04 09:55:30 INFO  BookingPage:155 - Selected trip mode: Oneway
+2025-08-04 09:55:30 INFO  BookingPage:163 - Clicking 'Book Now' button
+2025-08-04 09:55:31 INFO  BookingStepsExcel:97 - Clicked on Book Now button.
+2025-08-04 09:55:31 INFO  BookingStepsExcel:139 - Validating Email format error: 'Please enter valid email'
+2025-08-04 09:55:31 WARN  BookingPage:223 - BUG: Booking confirmed with invalid email. Message shown: 'Your Booking has been Confirmed..'
+2025-08-04 09:55:31 ERROR Hooks:52 - Scenario Failed: Submit form with invalid email format
+2025-08-04 09:55:31 INFO  Hooks:59 - Screenshot captured at: C:\Users\sriji\eclipse-workspace45\CallTaxiService\screenshots\Submit_form_with_invalid_email_format_04-08-2025_09_55_31.png
+2025-08-04 09:55:31 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:55:32 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:55:32 INFO  Hooks:66 - Scenario Ended: Submit form with invalid email format
+2025-08-04 09:55:32 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:55:32 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:55:33 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:55:33 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:55:33 INFO  Hooks:46 - Scenario Started: Submit form with invalid phone number format 
+2025-08-04 09:55:34 INFO  BookingStepsExcel:32 - Browser launched and booking page opened.
+2025-08-04 09:55:34 INFO  BookingStepsExcel:38 - Filling form with DataTable: {Name=Sri, Phone=987654321, Email=test@test.com, Trip=local, Cab=Mini, CarType=Non-Ac, Date=2025-08-28, Time=09:30, Passenger=2, TripType=oneway}
+2025-08-04 09:55:34 INFO  BookingPage:78 - Entered full name: Sri
+2025-08-04 09:55:34 INFO  BookingPage:87 - Entered phone number: 987654321
+2025-08-04 09:55:35 INFO  BookingPage:96 - Entered email: test@test.com
+2025-08-04 09:55:35 INFO  BookingPage:107 - Selected trip type: Local
+2025-08-04 09:55:35 INFO  BookingPage:115 - Selected cab: Mini
+2025-08-04 09:55:35 INFO  BookingPage:131 - Entered pickup date: 2025-08-28
+2025-08-04 09:55:35 INFO  BookingPage:140 - Entered pickup time: 09:30
+2025-08-04 09:55:35 INFO  BookingPage:147 - Selected passenger count: 2
+2025-08-04 09:55:36 INFO  BookingPage:155 - Selected trip mode: Oneway
+2025-08-04 09:55:36 INFO  BookingPage:163 - Clicking 'Book Now' button
+2025-08-04 09:55:36 INFO  BookingStepsExcel:97 - Clicked on Book Now button.
+2025-08-04 09:55:36 INFO  BookingPage:210 - Phone error text retrieved: 
+2025-08-04 09:55:36 INFO  BookingStepsExcel:147 - Validating Phone field error. Expected: 'Please enter valid phone number', Actual: ''
+2025-08-04 09:55:36 ERROR Hooks:52 - Scenario Failed: Submit form with invalid phone number format
+2025-08-04 09:55:36 INFO  Hooks:59 - Screenshot captured at: C:\Users\sriji\eclipse-workspace45\CallTaxiService\screenshots\Submit_form_with_invalid_phone_number_format_04-08-2025_09_55_36.png
+2025-08-04 09:55:36 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:55:37 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:55:37 INFO  Hooks:66 - Scenario Ended: Submit form with invalid phone number format
+2025-08-04 09:55:37 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:55:37 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:55:38 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:55:38 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:55:38 INFO  Hooks:46 - Scenario Started: Submit form with invalid phone number format 
+2025-08-04 09:55:39 INFO  BookingStepsExcel:32 - Browser launched and booking page opened.
+2025-08-04 09:55:39 INFO  BookingStepsExcel:38 - Filling form with DataTable: {Name=Sri, Phone=98765432101, Email=test@test.com, Trip=local, Cab=Mini, CarType=Non-Ac, Date=2025-08-28, Time=09:30, Passenger=2, TripType=oneway}
+2025-08-04 09:55:39 INFO  BookingPage:78 - Entered full name: Sri
+2025-08-04 09:55:39 INFO  BookingPage:87 - Entered phone number: 98765432101
+2025-08-04 09:55:39 INFO  BookingPage:96 - Entered email: test@test.com
+2025-08-04 09:55:40 INFO  BookingPage:107 - Selected trip type: Local
+2025-08-04 09:55:40 INFO  BookingPage:115 - Selected cab: Mini
+2025-08-04 09:55:40 INFO  BookingPage:131 - Entered pickup date: 2025-08-28
+2025-08-04 09:55:40 INFO  BookingPage:140 - Entered pickup time: 09:30
+2025-08-04 09:55:40 INFO  BookingPage:147 - Selected passenger count: 2
+2025-08-04 09:55:40 INFO  BookingPage:155 - Selected trip mode: Oneway
+2025-08-04 09:55:40 INFO  BookingPage:163 - Clicking 'Book Now' button
+2025-08-04 09:55:41 INFO  BookingStepsExcel:97 - Clicked on Book Now button.
+2025-08-04 09:55:41 INFO  BookingPage:210 - Phone error text retrieved: 
+2025-08-04 09:55:41 INFO  BookingStepsExcel:147 - Validating Phone field error. Expected: 'Please enter valid phone number', Actual: ''
+2025-08-04 09:55:41 ERROR Hooks:52 - Scenario Failed: Submit form with invalid phone number format
+2025-08-04 09:55:41 INFO  Hooks:59 - Screenshot captured at: C:\Users\sriji\eclipse-workspace45\CallTaxiService\screenshots\Submit_form_with_invalid_phone_number_format_04-08-2025_09_55_41.png
+2025-08-04 09:55:41 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:55:42 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:55:42 INFO  Hooks:66 - Scenario Ended: Submit form with invalid phone number format
+2025-08-04 09:55:42 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:55:42 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:55:43 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:55:43 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:55:43 INFO  Hooks:46 - Scenario Started: Submit form keeping name empty 
+2025-08-04 09:55:44 INFO  BookingStepsExcel:32 - Browser launched and booking page opened.
+2025-08-04 09:55:44 INFO  BookingStepsExcel:38 - Filling form with DataTable: {Name=null, Phone=9876543210, Email=sri@test1.com, Trip=local, Cab=Mini, CarType=AC, Date=2025-08-25, Time=09:30, Passenger=5, TripType=oneway}
+2025-08-04 09:55:45 INFO  BookingPage:87 - Entered phone number: 9876543210
+2025-08-04 09:55:45 INFO  BookingPage:96 - Entered email: sri@test1.com
+2025-08-04 09:55:45 INFO  BookingPage:107 - Selected trip type: Local
+2025-08-04 09:55:45 INFO  BookingPage:115 - Selected cab: Mini
+2025-08-04 09:55:45 INFO  BookingPage:131 - Entered pickup date: 2025-08-25
+2025-08-04 09:55:46 INFO  BookingPage:140 - Entered pickup time: 09:30
+2025-08-04 09:55:46 INFO  BookingPage:147 - Selected passenger count: 5
+2025-08-04 09:55:46 INFO  BookingPage:155 - Selected trip mode: Oneway
+2025-08-04 09:55:46 INFO  BookingPage:163 - Clicking 'Book Now' button
+2025-08-04 09:55:46 INFO  BookingStepsExcel:97 - Clicked on Book Now button.
+2025-08-04 09:55:46 INFO  BookingStepsExcel:116 - Validating Name field error: 'Please enter the name'
+2025-08-04 09:55:46 INFO  BookingPage:183 - Name validation passed. Message shown: 'Please enter the name'
+2025-08-04 09:55:46 INFO  Hooks:61 - Scenario Passed: Submit form keeping name empty
+2025-08-04 09:55:46 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:55:47 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:55:47 INFO  Hooks:66 - Scenario Ended: Submit form keeping name empty
+2025-08-04 09:55:47 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:55:47 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:55:48 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:55:49 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:55:49 INFO  Hooks:46 - Scenario Started: Submit form keeping trip type empty 
+2025-08-04 09:55:49 INFO  BookingStepsExcel:32 - Browser launched and booking page opened.
+2025-08-04 09:55:49 INFO  BookingStepsExcel:38 - Filling form with DataTable: {Name=Krishna, Phone=9876543210, Email=hrishna@test1.com, Trip=null, Cab=Micro, CarType=AC, Date=2025-07-28, Time=09:30, Passenger=2, TripType=oneway}
+2025-08-04 09:55:49 INFO  BookingPage:78 - Entered full name: Krishna
+2025-08-04 09:55:50 INFO  BookingPage:87 - Entered phone number: 9876543210
+2025-08-04 09:55:50 INFO  BookingPage:96 - Entered email: hrishna@test1.com
+2025-08-04 09:55:50 INFO  BookingPage:115 - Selected cab: Micro
+2025-08-04 09:55:50 INFO  BookingPage:131 - Entered pickup date: 2025-07-28
+2025-08-04 09:55:50 INFO  BookingPage:140 - Entered pickup time: 09:30
+2025-08-04 09:55:50 INFO  BookingPage:147 - Selected passenger count: 2
+2025-08-04 09:55:51 INFO  BookingPage:155 - Selected trip mode: Oneway
+2025-08-04 09:55:51 INFO  BookingPage:163 - Clicking 'Book Now' button
+2025-08-04 09:55:51 INFO  BookingStepsExcel:97 - Clicked on Book Now button.
+2025-08-04 09:55:51 INFO  BookingStepsExcel:122 - Validating Trip selection error: 'Please Select the Trip'
+2025-08-04 09:55:51 INFO  BookingPage:254 - Trip error text: Please Select the Trip
+2025-08-04 09:55:51 INFO  Hooks:61 - Scenario Passed: Submit form keeping trip type empty
+2025-08-04 09:55:51 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:55:52 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:55:52 INFO  Hooks:66 - Scenario Ended: Submit form keeping trip type empty
+2025-08-04 09:55:52 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:55:52 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:55:53 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:55:53 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:55:53 INFO  Hooks:46 - Scenario Started: Submit form keeping cab type empty 
+2025-08-04 09:55:54 INFO  BookingStepsExcel:32 - Browser launched and booking page opened.
+2025-08-04 09:55:54 INFO  BookingStepsExcel:38 - Filling form with DataTable: {Name=Krishna, Phone=9876543210, Email=hrishna@test1.com, Trip=long, Cab=null, CarType=AC, Date=2025-07-28, Time=09:30, Passenger=2, TripType=oneway}
+2025-08-04 09:55:54 INFO  BookingPage:78 - Entered full name: Krishna
+2025-08-04 09:55:54 INFO  BookingPage:87 - Entered phone number: 9876543210
+2025-08-04 09:55:54 INFO  BookingPage:96 - Entered email: hrishna@test1.com
+2025-08-04 09:55:54 INFO  BookingPage:104 - Selected trip type: Long
+2025-08-04 09:55:55 INFO  BookingPage:131 - Entered pickup date: 2025-07-28
+2025-08-04 09:55:55 INFO  BookingPage:140 - Entered pickup time: 09:30
+2025-08-04 09:55:55 INFO  BookingPage:147 - Selected passenger count: 2
+2025-08-04 09:55:55 INFO  BookingPage:155 - Selected trip mode: Oneway
+2025-08-04 09:55:55 INFO  BookingPage:163 - Clicking 'Book Now' button
+2025-08-04 09:55:55 INFO  BookingStepsExcel:97 - Clicked on Book Now button.
+2025-08-04 09:55:55 INFO  BookingStepsExcel:127 - Validating Cab selection error: 'Please Select the Cab Type'
+2025-08-04 09:55:55 INFO  BookingPage:261 - Cab error text: Please Select the Cab Type
+2025-08-04 09:55:55 INFO  Hooks:61 - Scenario Passed: Submit form keeping cab type empty
+2025-08-04 09:55:55 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:55:56 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:55:56 INFO  Hooks:66 - Scenario Ended: Submit form keeping cab type empty
+2025-08-04 09:55:56 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:55:56 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:55:57 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:55:57 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:55:57 INFO  Hooks:46 - Scenario Started: Submit form keeping no of passengers empty 
+2025-08-04 09:55:58 INFO  BookingStepsExcel:32 - Browser launched and booking page opened.
+2025-08-04 09:55:58 INFO  BookingStepsExcel:38 - Filling form with DataTable: {Name=Atul, Phone=9876543210, Email=atul@test1.com, Trip=long, Cab=Mini, CarType=AC, Date=2025-07-28, Time=10:30, Passenger=null, TripType=oneway}
+2025-08-04 09:55:59 INFO  BookingPage:78 - Entered full name: Atul
+2025-08-04 09:55:59 INFO  BookingPage:87 - Entered phone number: 9876543210
+2025-08-04 09:55:59 INFO  BookingPage:96 - Entered email: atul@test1.com
+2025-08-04 09:55:59 INFO  BookingPage:104 - Selected trip type: Long
+2025-08-04 09:55:59 INFO  BookingPage:115 - Selected cab: Mini
+2025-08-04 09:55:59 INFO  BookingPage:131 - Entered pickup date: 2025-07-28
+2025-08-04 09:56:00 INFO  BookingPage:140 - Entered pickup time: 10:30
+2025-08-04 09:56:00 INFO  BookingPage:155 - Selected trip mode: Oneway
+2025-08-04 09:56:00 INFO  BookingPage:163 - Clicking 'Book Now' button
+2025-08-04 09:56:00 INFO  BookingStepsExcel:97 - Clicked on Book Now button.
+2025-08-04 09:56:00 INFO  BookingStepsExcel:133 - Validating Passenger count error: 'Please Select the number of passengers'
+2025-08-04 09:56:00 INFO  BookingPage:267 - Passenger error text: Please Select the number of passengers
+2025-08-04 09:56:00 INFO  Hooks:61 - Scenario Passed: Submit form keeping no of passengers empty
+2025-08-04 09:56:00 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:56:01 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:56:01 INFO  Hooks:66 - Scenario Ended: Submit form keeping no of passengers empty
+2025-08-04 09:56:01 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:56:01 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:56:01 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:56:02 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:56:02 INFO  Hooks:46 - Scenario Started: Booking with row 0 from Excel data 
+2025-08-04 09:56:02 INFO  BookingStepsExcel:53 - Reading booking data from Excel sheet 'BookingData' at row 0
+2025-08-04 09:56:04 INFO  BookingStepsExcel:71 - Loaded Excel row data: {Name=Srijita, Phone=9.876509912E9, Email=, Trip=local, Cab=Micro, CabType=Non-Ac, Date=2025-08-23T00:00, Time=1899-12-31T01:00, Passenger=3, TripType=roundtrip}
+2025-08-04 09:56:04 INFO  BookingStepsExcel:81 - Filling form using Excel data.
+2025-08-04 09:56:04 INFO  BookingPage:78 - Entered full name: Srijita
+2025-08-04 09:56:05 INFO  BookingPage:87 - Entered phone number: 9.876509912E9
+2025-08-04 09:56:05 INFO  BookingPage:96 - Entered email: 
+2025-08-04 09:56:05 INFO  BookingPage:107 - Selected trip type: Local
+2025-08-04 09:56:05 INFO  BookingPage:115 - Selected cab: Micro
+2025-08-04 09:56:05 INFO  BookingPage:122 - Selected cab type: Non-Ac
+2025-08-04 09:56:05 INFO  BookingPage:131 - Entered pickup date: 2025-08-23T00:00
+2025-08-04 09:56:05 INFO  BookingPage:140 - Entered pickup time: 1899-12-31T01:00
+2025-08-04 09:56:06 INFO  BookingPage:147 - Selected passenger count: 3
+2025-08-04 09:56:06 INFO  BookingPage:158 - Selected trip mode: Roundtrip
+2025-08-04 09:56:06 INFO  BookingPage:163 - Clicking 'Book Now' button
+2025-08-04 09:56:06 INFO  BookingStepsExcel:97 - Clicked on Book Now button.
+2025-08-04 09:56:06 INFO  BookingPage:248 - Email missing error text retrieved: Please enter the email
+2025-08-04 09:56:06 INFO  BookingStepsExcel:110 - Validating missing email error. Expected: 'Please enter the email', Actual: 'Please enter the email'
+2025-08-04 09:56:06 INFO  Hooks:61 - Scenario Passed: Booking with row 0 from Excel data
+2025-08-04 09:56:06 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:56:08 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:56:08 INFO  Hooks:66 - Scenario Ended: Booking with row 0 from Excel data
+2025-08-04 09:56:08 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:56:08 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:56:09 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:56:09 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:56:09 INFO  Hooks:46 - Scenario Started: Booking with row 1 from Excel data 
+2025-08-04 09:56:09 INFO  BookingStepsExcel:53 - Reading booking data from Excel sheet 'BookingData' at row 1
+2025-08-04 09:56:10 INFO  BookingStepsExcel:71 - Loaded Excel row data: {Name=Atul, Phone=8.882233451E9, Email=atul@test1.com, Trip=long, Cab=Mini, CabType=AC, Date=2025-08-25T00:00, Time=1899-12-31T06:00, Passenger=5, TripType=local}
+2025-08-04 09:56:10 INFO  BookingStepsExcel:81 - Filling form using Excel data.
+2025-08-04 09:56:11 INFO  BookingPage:78 - Entered full name: Atul
+2025-08-04 09:56:11 INFO  BookingPage:87 - Entered phone number: 8.882233451E9
+2025-08-04 09:56:11 INFO  BookingPage:96 - Entered email: atul@test1.com
+2025-08-04 09:56:11 INFO  BookingPage:104 - Selected trip type: Long
+2025-08-04 09:56:11 INFO  BookingPage:115 - Selected cab: Mini
+2025-08-04 09:56:11 INFO  BookingPage:122 - Selected cab type: AC
+2025-08-04 09:56:12 INFO  BookingPage:131 - Entered pickup date: 2025-08-25T00:00
+2025-08-04 09:56:12 INFO  BookingPage:140 - Entered pickup time: 1899-12-31T06:00
+2025-08-04 09:56:12 INFO  BookingPage:147 - Selected passenger count: 5
+2025-08-04 09:56:12 INFO  BookingPage:163 - Clicking 'Book Now' button
+2025-08-04 09:56:12 INFO  BookingStepsExcel:97 - Clicked on Book Now button.
+2025-08-04 09:56:12 INFO  BookingPage:170 - Booking confirmation message: Your Booking has been Confirmed..
+2025-08-04 09:56:12 INFO  BookingStepsExcel:103 - Validating confirmation message. Expected: 'Your Booking has been Confirmed', Actual: 'Your Booking has been Confirmed..'
+2025-08-04 09:56:12 INFO  Hooks:61 - Scenario Passed: Booking with row 1 from Excel data
+2025-08-04 09:56:12 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:56:13 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:56:13 INFO  Hooks:66 - Scenario Ended: Booking with row 1 from Excel data
+2025-08-04 09:56:13 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:56:13 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:56:14 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:56:14 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:56:14 INFO  Hooks:46 - Scenario Started: Verify that cab service link is working 
+2025-08-04 09:56:15 INFO  ServicesPage:27 - Clicking Mini cab link
+2025-08-04 09:56:15 INFO  ServicesPage:57 - Current page URL: https://webapps.tekstac.com/SeleniumApp2/CallTaxiService/mini.html
+2025-08-04 09:56:15 INFO  Hooks:61 - Scenario Passed: Verify that cab service link is working
+2025-08-04 09:56:15 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:56:17 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:56:17 INFO  Hooks:66 - Scenario Ended: Verify that cab service link is working
+2025-08-04 09:56:17 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:56:17 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:56:18 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:56:18 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:56:18 INFO  Hooks:46 - Scenario Started: Verify that cab service link is working 
+2025-08-04 09:56:19 INFO  ServicesPage:31 - Clicking Micro cab link
+2025-08-04 09:56:20 INFO  ServicesPage:57 - Current page URL: https://webapps.tekstac.com/SeleniumApp2/CallTaxiService/micro.html
+2025-08-04 09:56:20 INFO  Hooks:61 - Scenario Passed: Verify that cab service link is working
+2025-08-04 09:56:20 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:56:21 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:56:21 INFO  Hooks:66 - Scenario Ended: Verify that cab service link is working
+2025-08-04 09:56:21 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:56:21 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:56:21 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:56:21 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:56:21 INFO  Hooks:46 - Scenario Started: Verify that cab service link is working 
+2025-08-04 09:56:23 INFO  ServicesPage:35 - Clicking Sedan cab link
+2025-08-04 09:56:23 INFO  ServicesPage:57 - Current page URL: https://webapps.tekstac.com/SeleniumApp2/CallTaxiService/sedan.html
+2025-08-04 09:56:23 INFO  Hooks:61 - Scenario Passed: Verify that cab service link is working
+2025-08-04 09:56:23 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:56:24 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:56:24 INFO  Hooks:66 - Scenario Ended: Verify that cab service link is working
+2025-08-04 09:56:24 INFO  DriverFactory:26 - Initializing WebDriver...
+2025-08-04 09:56:24 INFO  DriverFactory:30 - Browser specified in config: chrome
+2025-08-04 09:56:25 INFO  DriverFactory:37 - Chrome browser launched successfully.
+2025-08-04 09:56:26 INFO  DriverFactory:54 - Driver setup completed with implicit wait: 10 seconds
+2025-08-04 09:56:26 INFO  Hooks:46 - Scenario Started: Verify that cab service link is working 
+2025-08-04 09:56:27 INFO  ServicesPage:39 - Clicking SUV cab link
+2025-08-04 09:56:28 INFO  ServicesPage:57 - Current page URL: https://webapps.tekstac.com/SeleniumApp2/CallTaxiService/suv.html
+2025-08-04 09:56:28 INFO  Hooks:61 - Scenario Passed: Verify that cab service link is working
+2025-08-04 09:56:28 INFO  DriverFactory:69 - Quitting the browser...
+2025-08-04 09:56:28 INFO  DriverFactory:71 - Browser closed.
+2025-08-04 09:56:28 INFO  Hooks:66 - Scenario Ended: Verify that cab service link is working
+2025-08-04 09:56:29 INFO  Hooks:39 - Extent Report flushed and saved to: target/ExtentReport.html
