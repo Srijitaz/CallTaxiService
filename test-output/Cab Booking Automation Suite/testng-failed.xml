@@ -6,8 +6,8 @@
       <class name="com.cab.runners.TestRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="1 2 3 4 5 6"/>
           <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="1 2 3 4 5 6"/>
         </methods>
       </class> <!-- com.cab.runners.TestRunner -->
     </classes>
